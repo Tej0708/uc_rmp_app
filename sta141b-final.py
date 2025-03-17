@@ -101,7 +101,7 @@ def plot_sentiment_counts():
 
 
 def plot_wordcloud():
-    #nltk.download("stopwords") RUN THIS CODE IF YOU DON'T HAVE STOPWORDS DOWNLOADED
+    nltk.download("stopwords")
     stop_words = set(stopwords.words("english"))
     custom_stop_words = {'class', 'lecture', 'professor', 'really', 'homework', 'take', 'final', 'lectures', 'get', 'exams', 'student', 
                         'midterm', 'students', 'stats', 'go', 'make', 'course', 'pretty', 'would', 'like', 'much' }
