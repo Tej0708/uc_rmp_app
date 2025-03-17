@@ -9,8 +9,8 @@ from wordcloud import WordCloud
 from collections import Counter
 
 
-df = pd.read_csv("/Users/tejgaonkar/Downloads/uc_rmp_professors_full.csv")
-df_all = pd.read_csv("/Users/tejgaonkar/Downloads/uc_rmp_reviews.csv")
+df = pd.read_csv("uc_rmp_professors_full.csv")
+df_all = pd.read_csv("uc_rmp_reviews.csv")
 
 ## CLEAN AND FORMAT DATA
 df = df.drop(['Mode Rating'], axis=1)
